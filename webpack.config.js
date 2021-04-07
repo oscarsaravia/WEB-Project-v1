@@ -6,7 +6,14 @@ module.exports = {
         test: /\.(jsx)$/,
         use: ["babel-loader"],
       },
+      {
+        test: /\.(jsx)$/,
+        use: ["eslint-loader"],
+      },
     ],
+  },
+  resolve: {
+    extensions: ["*", ".js", ".jsx"],
   },
   devServer: {
     contentBase: "./dist",
