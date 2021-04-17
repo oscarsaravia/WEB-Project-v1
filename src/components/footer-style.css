@@ -1,0 +1,91 @@
+
+.foo{
+    margin-top: 75px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.contenido{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-top: 1px solid #fe5e00;
+    border-bottom: 1px solid #fe5e00;
+    box-sizing: border-box;
+    overflow:auto;
+
+}
+
+.redes{
+    position: relative;
+    width: 50%;
+    padding-left: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.ico{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border-color: currentColor;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.icono-redes{
+    padding-right: 15px;
+    float: left;
+    max-width: 100%;
+    background-color: transparent;
+}
+
+.domicilio{
+    width: 50%;
+    padding-right: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.contenido-domicilio{
+    float: right;
+    box-sizing: border-box;
+}
+
+.txt-ordernar{
+    margin-right: 10px;
+    padding-top: 9px;
+    float: left;
+    font-family: Emigre, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: right;
+    text-transform: uppercase;
+    color: black;
+}
+
+.domicilio-ico{
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    max-width: 100%;
+}
+
+.derechos{
+    box-sizing: border-box;
+}
+
+.derechostxt{
+    color: black;
+    width: 725px;
+    margin: 25px auto 80px;
+    font-family: Emigre, sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: justify;
+    box-sizing: border-box;
+    font-weight: 700;
+}

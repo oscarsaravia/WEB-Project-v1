@@ -1,0 +1,66 @@
+.contenedor{
+    width: 1050px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.content-title{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.titulo{
+    font-family: Emigre, sans-serif;
+    color: black;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+.masa{
+    float: left;
+    width: 34%;
+    box-sizing: border-box;
+}
+
+.masaimg{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.contenedor-ingredientes{
+    max-width: 940px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.cuadros{
+    float: left;
+    width: 66%;
+}
+
+.cuadro{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 0px 11px 22px 0px;
+}
+
+.fotocuadro{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+    box-sizing: border-box;
+}

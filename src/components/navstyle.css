@@ -1,0 +1,120 @@
+.encabezado{
+    background-color: #fff;
+    position: fixed;
+    left: 50%;
+    top: 0px;
+    width: 100%;
+    max-width: 100%;
+    transform: translate(-50%, 0px);
+    font-family: Emigre, sans-serif;
+    z-index: 99;
+    display: block;
+}
+
+.centro{
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bloquearriba{
+    background-color: #fe5e00;
+    width: 100%;
+    text-align: center;
+    height: 70px;
+}
+
+.bloqueabajo{
+    width: 100%;
+}
+
+.bloquepais{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    padding-right: 20px;
+    float: right;
+}
+
+.pais{
+    position: relative;
+    display: inline-block;
+    margin-top: 25px;
+    padding-right: 10px;
+    color: black;
+    font-size: 22px;
+    font-family: Emigre, sans-serif;
+}
+
+.bandera{
+    position: relative;
+    top: -5px;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.bloqueabajo{
+    width: 100%;
+    background-color: white;
+}
+
+.contenedorabajo{
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.centralmenu{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.link{
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: Emigre, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    position: relative;
+    vertical-align: top;
+    text-decoration: none;
+    color: #222222;
+    padding: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ordenar{
+    padding-right: 10px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    clear: left;
+    border-radius: 10px;
+    background-color: #fe5e00;
+    background-image: url("./images/scootercaesar.png");
+    background-position: 5px 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 900;
+    position: relative;
+    vertical-align: top;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}

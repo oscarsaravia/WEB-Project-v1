@@ -1,0 +1,14 @@
+.content{
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 160px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.section-slider{
+    width: 100%;
+    box-sizing: border-box;
+}

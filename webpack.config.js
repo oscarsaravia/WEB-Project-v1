@@ -1,21 +1,52 @@
+/* eslint linebreak-style: ["error", "windows"] */
 module.exports = {
-  mode: "development",
+  mode: 'production',
   module: {
     rules: [
       {
-        test: /\.(jsx)$/,
-        use: ["babel-loader"],
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
       },
       {
         test: /\.(jsx)$/,
-        use: ["eslint-loader"],
+        use: ['babel-loader'],
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.(jsx)$/,
+        use: ['eslint-loader'],
+      },
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'style-loader',
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+            },
+          },
+          {
+            loader: 'postcss-loader',
+          },
+        ],
       },
     ],
   },
   resolve: {
-    extensions: ["*", ".js", ".jsx"],
+    extensions: ['*', '.js', '.jsx', '.css'],
+    modules: [
+      'node_modules',
+    ],
   },
   devServer: {
-    contentBase: "./dist",
+    contentBase: './dist',
   },
-};
+}
